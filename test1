@@ -2,8 +2,6 @@ def is_degree (employee):
     degree = ["Кандидат наук", "Профессор"]
     return employee in degree
 employee = input("Введите ученую степень: ")
-
-#Ввод информации о наличии у сотрудника ученой степени
 if is_degree (employee):
     print("Премию начислить")
 else:
